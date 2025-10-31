@@ -1,10 +1,178 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Design homepage",
-      "description": "Include hero section",
+      "id": "1",
+      "title": "Setup project structure",
+      "description": "Initialize Next.js app, install dependencies, and configure linting.",
       "column": "backlog"
+    },
+    {
+      "id": "2",
+      "title": "Design database schema",
+      "description": "Create models for tasks, users, and comments in MongoDB.",
+      "column": "backlog"
+    },
+    {
+      "id": "3",
+      "title": "Define API endpoints",
+      "description": "Set up REST endpoints for CRUD operations using Express.",
+      "column": "backlog"
+    },
+    {
+      "id": "4",
+      "title": "Integrate TypeScript",
+      "description": "Convert existing JS files to TypeScript for better type safety.",
+      "column": "backlog"
+    },
+    {
+      "id": "5",
+      "title": "Implement drag & drop",
+      "description": "Use dnd-kit for moving tasks between columns.",
+      "column": "in progress"
+    },
+    {
+      "id": "6",
+      "title": "Add task search feature",
+      "description": "Add search bar and debounce logic to filter visible tasks.",
+      "column": "in progress"
+    },
+    {
+      "id": "7",
+      "title": "Implement edit modal",
+      "description": "Add modal for editing title and description with validation.",
+      "column": "review"
+    },
+    {
+      "id": "8",
+      "title": "Connect backend API",
+      "description": "Integrate frontend with mock JSON server for CRUD testing.",
+      "column": "in progress"
+    },
+    {
+      "id": "9",
+      "title": "Fix hydration mismatch bug",
+      "description": "Ensure SSR HTML matches client-side render by removing dynamic code.",
+      "column": "review"
+    },
+    {
+      "id": "10",
+      "title": "Improve accessibility",
+      "description": "Add ARIA labels and keyboard navigation for tasks.",
+      "column": "review"
+    },
+    {
+      "id": "11",
+      "title": "Optimize React Query cache",
+      "description": "Tune query keys and invalidate behavior after mutations.",
+      "column": "review"
+    },
+    {
+      "id": "12",
+      "title": "Write unit tests",
+      "description": "Use Jest and React Testing Library to cover all components.",
+      "column": "review"
+    },
+    {
+      "id": "13",
+      "title": "Deploy to Vercel",
+      "description": "Push main branch and test live deployment configuration.",
+      "column": "done"
+    },
+    {
+      "id": "14",
+      "title": "Add responsive layout",
+      "description": "Ensure Kanban board works on all devices.",
+      "column": "done"
+    },
+    {
+      "id": "15",
+      "title": "Add dark mode",
+      "description": "Implement MUI theme toggle and persist in localStorage.",
+      "column": "done"
+    },
+    {
+      "id": "16",
+      "title": "Fix slow render issue",
+      "description": "Memoize heavy components and avoid unnecessary re-renders.",
+      "column": "done"
+    },
+    {
+      "id": "17",
+      "title": "Add user authentication",
+      "description": "Protect routes and add login/logout with JWT tokens.",
+      "column": "backlog"
+    },
+    {
+      "id": "18",
+      "title": "Refactor API hooks",
+      "description": "Use React Query for CRUD hooks and shared API instance.",
+      "column": "in progress"
+    },
+    {
+      "id": "19",
+      "title": "Write documentation",
+      "description": "Add README and setup instructions for developers.",
+      "column": "review"
+    },
+    {
+      "id": "20",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "21",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "22",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "23",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "24",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "25",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "26",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "27",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "28",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
+    },
+    {
+      "id": "29",
+      "title": "Final QA testing",
+      "description": "Perform cross-browser testing before release.",
+      "column": "done"
     }
   ]
 }
