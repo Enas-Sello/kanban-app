@@ -9,7 +9,7 @@ export default function AnimatedSkeleton() {
           key={i}
           sx={{ borderRadius:2 , mb: 2 }}
           variant="rectangular"
-          width={340}
+          width={250}
           height={150}
         />
       ))}
