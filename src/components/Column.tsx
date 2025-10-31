@@ -1,11 +1,13 @@
 "use client";
 
 import { useGetTasks } from "@/hooks/tasksQuery";
-import { Box, CircularProgress, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+
 import TaskCard from "./TaskCard";
 import TaskModal from "./TaskModal";
 import { useDroppable } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import AnimatedSkeleton from "./Skeleton";
 
 export default function Column({
   column,
@@ -52,7 +54,7 @@ export default function Column({
         {column}
       </Typography>
 
-      {isLoading && <CircularProgress />}
+      {isLoading && <AnimatedSkeleton />}
       {isError && <Typography color="error">Failed to load</Typography>}
 
       <SortableContext
